@@ -1,0 +1,50 @@
+.start-page {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 10% auto;
+  margin-top: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.start-page--welcome {
+  width: 50%;
+}
+
+.start-page--welcome--title {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.start-page--image {
+  width: 40%;
+}
+
+
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 200px;
+  height: 70px;
+  background-color: #008cff;
+  font-weight: 600;
+  font-size: 1.4em;
+  color: #1d1d1d;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+}
+
+.sign-up-button:hover {
+  background-color: #0055ff;
+  transition: all 500ms;
+}
+
+.start-page--image {
+  cursor: default;
+  height: 80vh;
+  width: 80vw;
+  z-index: -1;
+}

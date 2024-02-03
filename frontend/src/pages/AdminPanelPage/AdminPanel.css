@@ -1,0 +1,84 @@
+.admin-panel--access-denied {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.admin-panel--access-denied > .content {
+  font-size: 5em;
+  font-weight: bold;
+  color: #00bb9c;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+thead {
+  height: 2em;
+  font-size: 1.2em;
+}
+
+th, td {
+  text-align: center;
+  cursor: default;
+}
+
+.is-staff-btn-container {
+  display: flex;
+  width: 50px;
+  height: 1.5em;
+  border-radius: 15px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.is-staff-btn {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background-color: #494949;
+  border-radius: 15px;
+}
+
+.on {
+  justify-content: end;
+  background-color: #ff520e;
+}
+
+.off {
+  justify-content: start;
+  background-color: #00bb9c;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  height: 5%;
+  width: 5%;
+  border: none;
+  background-color: #d9d9d9;
+}
+
+.to-storage-btn {
+  background-color: #008cff;
+  color: #d9d9d9;
+  height: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.8em;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 2px;
+}
+
+.to-storage-btn:hover {
+  background-color: #0055ff;
+  transition: all 500ms;
+}

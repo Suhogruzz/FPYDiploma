@@ -1,0 +1,12 @@
+.file-list-title {
+  margin: 50px 15%;
+}
+
+.file-list-container {
+  height: 100vh;
+  row-gap: 10%;
+  align-content: baseline;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 50px 10%;
+}

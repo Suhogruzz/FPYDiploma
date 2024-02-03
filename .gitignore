@@ -2,7 +2,7 @@ venv/
 __pycache__/
 storage/*
 .env
-migrations/*
+frontend/static/src/*
 
 # Frontend
 

@@ -1,0 +1,66 @@
+.file-input-form {
+  display: flex;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  width: 25vw;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  width: 50%;
+  height: 5em;
+  border-radius: 35px;
+  background-color: #008cff;
+  box-shadow: -2px 5px 23px -5px grey;
+}
+
+.button:hover {
+  background-color: #0055ff;
+}
+
+.input-wrapper > label > input {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+}
+
+.uploadbtn {
+  margin-left: 5%;
+  font-size: 1em;
+  font-weight: bold;
+  height: 5em;
+  width: 40%;
+  cursor: pointer;
+  background: url(../../../../public/svg/cloud-upload.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #008cff;
+  box-shadow: -2px 5px 23px -5px grey;
+  border-radius: 35px;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #0055ff;
+}
+
+label {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview {
+  position: absolute;
+  margin-top: -70%;
+}
+
