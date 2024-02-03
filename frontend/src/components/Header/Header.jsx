@@ -42,7 +42,7 @@ function Header() {
                 <Link
                   to="/sign-up"
                 >
-                  Зарегестрироваться
+                  Зарегистрироваться
                 </Link>
               </div>
             </>
